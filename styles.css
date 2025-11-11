@@ -1,0 +1,28 @@
+/* styles.css */
+
+.carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the carousel item */
+}
+
+.details {
+    padding: 1rem;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border: 1px solid #dee2e6; /* Light border for definition */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1); /* Slight shadow */
+}
+
+.details h2 {
+    margin-top: 0;
+    color: #333; /* Dark text color */
+}
+
+.details p {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+}

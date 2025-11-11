@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --green: #27ae60;
+    --black: #192A56;
+    --light-color: #666;
+    --box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    
+}
+
+/* Target specific nav items */
+.navbar-nav .nav-item:nth-child(1) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(2) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(3) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(4) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(5) .nav-link:hover {
+    background-color: var(--green) !important;
+    color: white !important;
+    border-radius: 0.5rem; /* Optional: rounded corners */
+}
+
+
+
+.btn-danger:hover {
+    background-color: #c82333 !important; /* Optionally adjust for danger button */
+    border-color: #bd2130 !important; /* Optionally adjust for danger button */
+    color: white !important;
+}
+
+.navbar-brand .fas {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 0.5rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold; /* Make text bold */
+    font-family: 'Poppins', sans-serif; /* Apply unique font */
+}
+
